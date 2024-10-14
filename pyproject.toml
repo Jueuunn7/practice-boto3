@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "practice-boto3"
+version = "0.1.0"
+description = ""
+authors = ["Jueuunn7 <wndmsrla1234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.39"
+django = "^5.1.2"
+watchtower = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
